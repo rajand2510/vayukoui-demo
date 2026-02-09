@@ -11,7 +11,7 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.es.js",
       "require": "./dist/index.cjs"
-      
+
     },
     "./dist/ui.css": "./dist/ui.css"
   },
@@ -54,12 +54,5 @@
     "vite": "^7.3.1",
     "vitest": "^4.0.18"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vayuko/ui"
-  },
-  "bugs": {
-    "url": "https://github.com/vayuko/ui/issues"
-  },
-  "homepage": "https://github.com/vayuko/ui#readme"
+  "homepage": "https://vayukoui-demo.vercel.app/"
 }
