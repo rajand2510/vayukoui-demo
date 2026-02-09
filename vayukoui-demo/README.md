@@ -27,12 +27,11 @@ A live demo and documentation site for **[Vayuko UI](https://github.com/rajand25
 - Vite 7
 - Tailwind CSS 4
 - React Router 7
-- [@vayuko/ui](https://github.com/rajand2510) (local or published package)
+- [@vayuko/ui](https://www.npmjs.com/package/@vayuko/ui) (from npm)
 
 ## Run locally
 
 ```bash
-# Install dependencies (requires @vayuko/ui — see below)
 npm install
 
 # Dev server
@@ -47,10 +46,13 @@ npm run preview
 
 ### Using the UI library
 
-This demo depends on `@vayuko/ui`. Either:
+This demo depends on `@vayuko/ui` from npm. Install with:
 
-1. **Local:** Clone the [Vayuko UI](https://github.com/rajand2510/Vayuko-UI) repo as a sibling folder named `vayukoui`, then run `npm install` in this repo.
-2. **npm:** If `@vayuko/ui` is published, install it with `npm install @vayuko/ui` and update `package.json` to use it instead of `file:../vayukoui`.
+```bash
+npm install @vayuko/ui
+```
+
+For **local development** with the library source, use a sibling clone and set `"@vayuko/ui": "file:../vayukoui"` in `package.json`, then run `npm install`.
 
 ## License
 

@@ -47,7 +47,7 @@ export function Navbar({ onMenuClick }: NavbarProps) {
           <Dropdown
             options={navOptions}
             value={currentPath}
-            onChange={(path) => navigate(path)}
+            onChange={(path: string) => navigate(path)}
             placeholder="Jump to component…"
             searchable
             aria-label="Navigate to component"

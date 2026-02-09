@@ -60,7 +60,7 @@ export default function RangeSliderPage() {
             max={maxVal}
             step={1}
             value={{ from: fromSafe, to: toSafe }}
-            onChange={({ from: f, to: t }) => {
+            onChange={({ from: f, to: t }: { from: number; to: number }) => {
               setFromRaw(f);
               setToRaw(t);
             }}
