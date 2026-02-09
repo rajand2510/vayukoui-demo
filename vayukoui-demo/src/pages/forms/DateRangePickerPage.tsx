@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { DateRangePicker } from "@vayuko/ui";
 import type { DateRangeValue } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
 
 export default function DateRangePickerPage() {
   const [value, setValue] = useState<DateRangeValue>({ from: null, to: null });

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Button } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
-import { jsxStr } from "../lib/codegen";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
+import { jsxStr } from "../../lib/codegen";
 
 export default function ButtonPage() {
   const [label, setLabel] = useState("Click me");

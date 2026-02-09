@@ -1,9 +1,9 @@
 import { useState, useMemo } from "react";
 import { Dropdown } from "@vayuko/ui";
 import type { DropdownOption } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
-import { ColorPicker } from "../components/ColorPicker";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
+import { ColorPicker } from "../../components/ColorPicker";
 
 const defaultOptions: DropdownOption[] = [
   { value: "apple", label: "Apple" },

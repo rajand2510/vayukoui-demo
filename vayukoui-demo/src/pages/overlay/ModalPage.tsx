@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button, Modal } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
 
 export default function ModalPage() {
   const [open, setOpen] = useState(false);

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Stepper, LinearProgress, CircularProgress } from "@vayuko/ui";
 import type { StepperStep, StepperVariant } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
-import { ColorPicker } from "../components/ColorPicker";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
+import { ColorPicker } from "../../components/ColorPicker";
 
 const DEFAULT_STEPS: StepperStep[] = [
   { id: "plan", label: "Plan" },

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { DatePicker } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
 
 export default function DatePickerPage() {
   const [value, setValue] = useState<Date | null>(null);

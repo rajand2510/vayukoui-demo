@@ -1,8 +1,8 @@
 import { useState, useMemo } from "react";
 import { Slider } from "@vayuko/ui";
 import type { SliderSize, ValueLabelDisplay } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
 
 function clamp(n: number, min: number, max: number) {
   return Math.min(max, Math.max(min, n));

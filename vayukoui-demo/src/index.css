@@ -110,6 +110,26 @@ pre::-webkit-scrollbar-corner {
   border-radius: 4px;
 }
 
+/* Search overlay: dark scrollbar */
+.search-suggestions {
+  scrollbar-width: thin;
+  scrollbar-color: #52525b #2C2C2E;
+}
+.search-suggestions::-webkit-scrollbar {
+  width: 8px;
+}
+.search-suggestions::-webkit-scrollbar-track {
+  background: #2C2C2E;
+  border-radius: 4px;
+}
+.search-suggestions::-webkit-scrollbar-thumb {
+  background: #52525b;
+  border-radius: 4px;
+}
+.search-suggestions::-webkit-scrollbar-thumb:hover {
+  background: #71717a;
+}
+
 .demo-input,
 .demo-select,
 .demo-textarea {
@@ -403,16 +423,13 @@ pre::-webkit-scrollbar-corner {
   @apply h-full rounded-full bg-indigo-500 transition-all duration-200;
 }
 
-/* Sidebar: visible on laptop (640px+), sticky and scrollable */
-.sidebar-icon,
+/* Sidebar: group-based nav, visible on laptop (640px+), sticky and scrollable */
 .sidebar-list {
   display: flex;
   position: sticky;
   top: 3.5rem; /* below navbar */
   max-height: calc(100vh - 3.5rem);
   flex-direction: column;
-}
-.sidebar-list {
   overflow: hidden; /* nav inside scrolls */
 }
 .sidebar-list-nav {
@@ -421,7 +438,6 @@ pre::-webkit-scrollbar-corner {
   overflow-y: auto;
 }
 @media (max-width: 639px) {
-  .sidebar-icon,
   .sidebar-list {
     display: none;
   }

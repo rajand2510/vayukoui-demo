@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Accordion, Button } from "@vayuko/ui";
 import type { AccordionItem } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
-import { ColorPicker } from "../components/ColorPicker";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
+import { ColorPicker } from "../../components/ColorPicker";
 
 const FAQ_ITEMS: AccordionItem[] = [
   {

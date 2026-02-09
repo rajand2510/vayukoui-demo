@@ -1,8 +1,8 @@
 import { useState, useMemo } from "react";
 import { RadioGroup } from "@vayuko/ui";
 import type { RadioVariant } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
 
 const defaultOptions = [
   { value: "yes", label: "Yes" },

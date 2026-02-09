@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Button, Drawer } from "@vayuko/ui";
 import type { DrawerSide } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
 
 export default function DrawerPage() {
   const [open, setOpen] = useState(false);

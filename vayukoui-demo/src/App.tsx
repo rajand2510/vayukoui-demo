@@ -3,22 +3,22 @@ import { DEMOS_BASE } from "./lib/components";
 import Layout from "./Layout";
 import Home from "./pages/Home";
 import EntryPage from "./pages/EntryPage";
-import GettingStartedPage from "./pages/GettingStartedPage";
-import ThemeProviderPage from "./pages/ThemeProviderPage";
-import ButtonPage from "./pages/ButtonPage";
-import SliderPage from "./pages/SliderPage";
-import RangeSliderPage from "./pages/RangeSliderPage";
-import DropdownPage from "./pages/DropdownPage";
-import DatePickerPage from "./pages/DatePickerPage";
-import DateRangePickerPage from "./pages/DateRangePickerPage";
-import RadioGroupPage from "./pages/RadioGroupPage";
-import VoiceRecorderPage from "./pages/VoiceRecorderPage";
-import NotificationPage from "./pages/NotificationPage";
-import ProgressPage from "./pages/ProgressPage";
-import TabsPage from "./pages/TabsPage";
-import ModalPage from "./pages/ModalPage";
-import DrawerPage from "./pages/DrawerPage";
-import AccordionPage from "./pages/AccordionPage";
+import GettingStartedPage from "./pages/getting-started/GettingStartedPage";
+import ThemeProviderPage from "./pages/getting-started/ThemeProviderPage";
+import ButtonPage from "./pages/forms/ButtonPage";
+import SliderPage from "./pages/forms/SliderPage";
+import RangeSliderPage from "./pages/forms/RangeSliderPage";
+import DropdownPage from "./pages/forms/DropdownPage";
+import DatePickerPage from "./pages/forms/DatePickerPage";
+import DateRangePickerPage from "./pages/forms/DateRangePickerPage";
+import RadioGroupPage from "./pages/forms/RadioGroupPage";
+import VoiceRecorderPage from "./pages/media/VoiceRecorderPage";
+import NotificationPage from "./pages/feedback/NotificationPage";
+import ProgressPage from "./pages/feedback/ProgressPage";
+import TabsPage from "./pages/layout/TabsPage";
+import ModalPage from "./pages/overlay/ModalPage";
+import DrawerPage from "./pages/overlay/DrawerPage";
+import AccordionPage from "./pages/data-display/AccordionPage";
 
 export default function App() {
   return (

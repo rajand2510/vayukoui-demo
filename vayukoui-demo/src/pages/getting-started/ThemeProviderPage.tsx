@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Button } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
-import { ColorPicker } from "../components/ColorPicker";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
+import { ColorPicker } from "../../components/ColorPicker";
 
 export default function ThemeProviderPage() {
   const [mode, setMode] = useState<"light" | "dark">("light");

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Button, Notification, notification } from "@vayuko/ui";
 import type { NotificationVariant } from "@vayuko/ui";
-import { PageLayout } from "../components/PageLayout";
-import { PropControl } from "../components/PropControl";
+import { PageLayout } from "../../components/PageLayout";
+import { PropControl } from "../../components/PropControl";
 
 export default function NotificationPage() {
   const [open, setOpen] = useState(false);
