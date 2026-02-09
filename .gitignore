@@ -1,0 +1,11 @@
+# Other projects in workspace (only vayukoui + vayukoui-demo are part of this repo)
+/erp-backend/
+/tag-editor/
+
+# Archives
+*.zip
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
