@@ -1,0 +1,3 @@
+{
+  "buildCommand": "cd ../vayukoui && npm run build && cd ../vayukoui-demo && npm run build"
+}
