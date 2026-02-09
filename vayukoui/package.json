@@ -1,6 +1,6 @@
 {
   "name": "@vayuko/ui",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Vayuko UI - Modern React UI Component Library",
   "license": "MIT",
   "main": "./dist/index.cjs",
